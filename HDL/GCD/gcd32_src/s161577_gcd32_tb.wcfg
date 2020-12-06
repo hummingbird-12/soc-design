@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="s161577_gcd32_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="s161577_gcd32_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="140000001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="135"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/s161577_gcd32_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/s161577_gcd32_tb/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/s161577_gcd32_tb/x_in" type="array">
+      <obj_property name="ElementShortName">x_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x_in[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/s161577_gcd32_tb/y_in" type="array">
+      <obj_property name="ElementShortName">y_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y_in[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/s161577_gcd32_tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/s161577_gcd32_tb/gcd_done" type="logic">
+      <obj_property name="ElementShortName">gcd_done</obj_property>
+      <obj_property name="ObjectShortName">gcd_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/s161577_gcd32_tb/gcd_out" type="array">
+      <obj_property name="ElementShortName">gcd_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gcd_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider166">
+      <obj_property name="label">misc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/s161577_gcd32_tb/ans" type="array">
+      <obj_property name="ElementShortName">ans[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ans[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/s161577_gcd32_tb/fread_en" type="logic">
+      <obj_property name="ElementShortName">fread_en</obj_property>
+      <obj_property name="ObjectShortName">fread_en</obj_property>
+   </wvobject>
+</wave_config>

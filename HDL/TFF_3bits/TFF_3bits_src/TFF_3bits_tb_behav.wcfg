@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TFF_3bits_tb_func_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="TFF_3bits_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="300000001fs"></ZoomEndTime>
+      <Cursor1Time time="300000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="219"></NameColumnWidth>
+      <ValueColumnWidth column_width="70"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="40" />
+   <wvobject fp_name="/TFF_3bits_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/start_sim" type="logic">
+      <obj_property name="ElementShortName">start_sim</obj_property>
+      <obj_property name="ObjectShortName">start_sim</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/din" type="array">
+      <obj_property name="ElementShortName">din[2:0]</obj_property>
+      <obj_property name="ObjectShortName">din[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/led" type="array">
+      <obj_property name="ElementShortName">led[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/btn" type="array">
+      <obj_property name="ElementShortName">btn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">btn[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider99">
+      <obj_property name="label">Bit 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/sysclk" type="logic">
+      <obj_property name="ElementShortName">sysclk</obj_property>
+      <obj_property name="ObjectShortName">sysclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/btn[1]" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">[1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/btnC[1]" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">[1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/btnD[1]" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">[1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/\Q[1]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\Q[1]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\Q[1]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/led_OBUF[1]" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">[1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/led[1]" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">[1]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider82">
+      <obj_property name="label">UUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/\Q[0]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\Q[0]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\Q[0]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/\Q[1]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\Q[1]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\Q[1]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/\Q[2]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\Q[2]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\Q[2]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/btn" type="array">
+      <obj_property name="ElementShortName">btn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">btn[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/btnC" type="array">
+      <obj_property name="ElementShortName">btnC[2:0]</obj_property>
+      <obj_property name="ObjectShortName">btnC[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/btnD" type="array">
+      <obj_property name="ElementShortName">btnD[2:0]</obj_property>
+      <obj_property name="ObjectShortName">btnD[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/btn_IBUF" type="array">
+      <obj_property name="ElementShortName">btn_IBUF[3:0]</obj_property>
+      <obj_property name="ObjectShortName">btn_IBUF[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/led" type="array">
+      <obj_property name="ElementShortName">led[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/led_OBUF" type="array">
+      <obj_property name="ElementShortName">led_OBUF[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led_OBUF[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/sysclk" type="logic">
+      <obj_property name="ElementShortName">sysclk</obj_property>
+      <obj_property name="ObjectShortName">sysclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/sysclk_IBUF" type="logic">
+      <obj_property name="ElementShortName">sysclk_IBUF</obj_property>
+      <obj_property name="ObjectShortName">sysclk_IBUF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/sysclk_IBUF_BUFG" type="logic">
+      <obj_property name="ElementShortName">sysclk_IBUF_BUFG</obj_property>
+      <obj_property name="ObjectShortName">sysclk_IBUF_BUFG</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider170">
+      <obj_property name="label">After impl</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/\Q[0]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\Q[0]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\Q[0]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/\Q[1]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\Q[1]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\Q[1]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/\Q[2]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\Q[2]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\Q[2]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/btn" type="array">
+      <obj_property name="ElementShortName">btn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">btn[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/btnC" type="array">
+      <obj_property name="ElementShortName">btnC[2:0]</obj_property>
+      <obj_property name="ObjectShortName">btnC[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/btnD" type="array">
+      <obj_property name="ElementShortName">btnD[2:0]</obj_property>
+      <obj_property name="ObjectShortName">btnD[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/btn_IBUF" type="array">
+      <obj_property name="ElementShortName">btn_IBUF[3:0]</obj_property>
+      <obj_property name="ObjectShortName">btn_IBUF[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/led" type="array">
+      <obj_property name="ElementShortName">led[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/led_OBUF" type="array">
+      <obj_property name="ElementShortName">led_OBUF[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led_OBUF[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/sysclk" type="logic">
+      <obj_property name="ElementShortName">sysclk</obj_property>
+      <obj_property name="ObjectShortName">sysclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/sysclk_IBUF" type="logic">
+      <obj_property name="ElementShortName">sysclk_IBUF</obj_property>
+      <obj_property name="ObjectShortName">sysclk_IBUF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TFF_3bits_tb/UUT/sysclk_IBUF_BUFG" type="logic">
+      <obj_property name="ElementShortName">sysclk_IBUF_BUFG</obj_property>
+      <obj_property name="ObjectShortName">sysclk_IBUF_BUFG</obj_property>
+   </wvobject>
+</wave_config>

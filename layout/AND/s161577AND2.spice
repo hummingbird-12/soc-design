@@ -1,0 +1,30 @@
+* SPICE3 file created from s161577AND2.ext - technology: scmos
+
+.option scale=1u
+.include scmos_spice.prm
+
+M1000 F NOT_F Vdd Vdd pfet w=27 l=2
++  ad=135 pd=64 as=405 ps=192
+M1001 F NOT_F Gnd Gnd nfet w=11 l=2
++  ad=55 pd=32 as=110 ps=64
+M1002 NOT_F A Vdd Vdd pfet w=27 l=2
++  ad=162 pd=66 as=0 ps=0
+M1003 Vdd B NOT_F Vdd pfet w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 s161577NAND2_0/a_n6_n15# A Gnd Gnd nfet w=11 l=2
++  ad=66 pd=34 as=0 ps=0
+M1005 NOT_F B s161577NAND2_0/a_n6_n15# Gnd nfet w=11 l=2
++  ad=55 pd=32 as=0 ps=0
+C0 Gnd 0 4.32fF
+C1 Vdd 0 4.32fF
+C2 NOT_F 0 10.43fF
+
+V11 Vdd Gnd 3.3
+* V01 A Gnd PULSE(0 3.3 1ns 0.2ns 0.2ns 8ns 16.2ns)
+* V02 B Gnd PULSE(0 3.3 5ns 0.2ns 0.2ns 8ns 16.2ns)
+V01 A Gnd EXP(0 3.3 5ns 0.2ns 20ns 0.2ns)
+V02 B Gnd EXP(0 3.3 15ns 0.2ns 25ns 0.2ns)
+
+.TRAN 0.1ns 25ns
+
+.end

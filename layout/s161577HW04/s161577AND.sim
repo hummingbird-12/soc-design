@@ -1,0 +1,17 @@
+| units: 100 tech: scmos format: MIT
+p NOT_F Vdd! F 2 27 36 23
+n NOT_F Gnd! F 2 11 36 2
+p A Vdd! NOT_F 2 27 8 23
+p B NOT_F Vdd! 2 27 16 23
+n A Gnd! s161577NAND_0/a_n6_n15# 2 11 8 2
+n B s161577NAND_0/a_n6_n15# NOT_F 2 11 16 2
+R s161577NAND_0/a_n6_n15# 49
+R B 620
+R A 620
+C Gnd! GND 4.32
+R Gnd! 539
+R F 381
+C Vdd! GND 4.32
+R Vdd! 1389
+C NOT_F GND 10.43
+R NOT_F 947

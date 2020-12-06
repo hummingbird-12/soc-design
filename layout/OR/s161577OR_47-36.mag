@@ -1,0 +1,29 @@
+magic
+tech scmos
+timestamp 1601589845
+<< polysilicon >>
+rect -3 4 -1 6
+rect 5 4 7 6
+<< metal1 >>
+rect 7 20 27 24
+rect 4 7 22 10
+rect 29 6 32 10
+rect 7 -8 27 -4
+<< polycontact >>
+rect 22 6 26 10
+use s161577NOR_47-36  s161577NOR_47-36_0
+timestamp 1601588508
+transform 1 0 4 0 1 10
+box -16 -20 11 16
+use s161577NOT_47-36  s161577NOT_47-36_0
+timestamp 1601458543
+transform 1 0 26 0 1 12
+box -10 -22 9 14
+<< labels >>
+rlabel metal1 14 22 14 22 5 Vdd!
+rlabel metal1 14 -6 14 -6 1 Gnd!
+rlabel metal1 14 9 14 9 1 NOT_F
+rlabel polysilicon -2 5 -2 5 1 A
+rlabel polysilicon 6 5 6 5 1 B
+rlabel metal1 30 8 30 8 7 F
+<< end >>

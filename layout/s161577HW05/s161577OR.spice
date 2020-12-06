@@ -1,0 +1,27 @@
+* SPICE3 file created from s161577OR.ext - technology: scmos
+
+.option scale=1u
+.include scmos_spice.prm
+
+M1000 F NOT_F Vdd Vdd pfet w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1001 F NOT_F Gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=60 ps=54
+M1002 s161577NOR_0/a_0_11# A NOT_F Vdd pfet w=4 l=2
++  ad=8 pd=12 as=20 ps=18
+M1003 Vdd B s161577NOR_0/a_0_11# Vdd pfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 NOT_F A Gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1005 Gnd B NOT_F Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 Gnd 0 5.36fF
+C1 NOT_F 0 12.49fF
+
+V11 Vdd Gnd 3.3
+V01 A Gnd EXP(0 3.3 20ns 0.2ns 40ns 0.2ns)
+V02 B Gnd EXP(0 3.3 10ns 0.2ns 30ns 0.2ns)
+
+.TRAN 0.1ns 50ns
+
+.end
