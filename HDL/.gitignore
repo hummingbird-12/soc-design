@@ -1,4 +1,13 @@
 # Only keep necessary source files
+
+!LED/*/IP_repo_161577/
+LED/*/IP_repo_161577/*
+!LED/*/IP_repo_161577/ip_repo/
+LED/*/IP_repo_161577/ip_repo/*
+!LED/*/IP_repo_161577/ip_repo/*/
+LED/*/IP_repo_161577/ip_repo/*/*
+!LED/*/IP_repo_161577/ip_repo/*/hdl
+
 *_prj
 
 # gitignore template for Xilinx Vivado Design Suite
@@ -98,7 +107,6 @@
 */*/bd/*/ip/*/*.xml
 */*/*/bd/*/ip/*/*.xml
 
-*.c
 *.h
 *.vho
 *.html

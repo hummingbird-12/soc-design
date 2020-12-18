@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="led_btn_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="led_btn_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="257000001fs"></ZoomEndTime>
+      <Cursor1Time time="70000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="145"></NameColumnWidth>
+      <ValueColumnWidth column_width="70"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="33" />
+   <wvobject type="divider" fp_name="divider635">
+      <obj_property name="label">Main Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/S_AXI_ACLK" type="logic">
+      <obj_property name="ElementShortName">S_AXI_ACLK</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/S_AXI_ARESETN" type="logic">
+      <obj_property name="ElementShortName">S_AXI_ARESETN</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARESETN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/led_btn_ctrl_inst/int_en" type="logic">
+      <obj_property name="ElementShortName">int_en</obj_property>
+      <obj_property name="ObjectShortName">int_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/btn" type="array">
+      <obj_property name="ElementShortName">btn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">btn[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/led_btn_ctrl_inst/int_req" type="logic">
+      <obj_property name="ElementShortName">int_req</obj_property>
+      <obj_property name="ObjectShortName">int_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/irq" type="logic">
+      <obj_property name="ElementShortName">irq</obj_property>
+      <obj_property name="ObjectShortName">irq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/led_btn_ctrl_inst/int_clr" type="logic">
+      <obj_property name="ElementShortName">int_clr</obj_property>
+      <obj_property name="ObjectShortName">int_clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/led" type="array">
+      <obj_property name="ElementShortName">led[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider246">
+      <obj_property name="label">Test control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/S_AXI_ACLK" type="logic">
+      <obj_property name="ElementShortName">S_AXI_ACLK</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/S_AXI_ARESETN" type="logic">
+      <obj_property name="ElementShortName">S_AXI_ARESETN</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARESETN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/step" type="array">
+      <obj_property name="ElementShortName">step[31:0]</obj_property>
+      <obj_property name="ObjectShortName">step[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/icnt" type="array">
+      <obj_property name="ElementShortName">icnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">icnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider415">
+      <obj_property name="label">External IOs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/btn" type="array">
+      <obj_property name="ElementShortName">btn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">btn[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/led" type="array">
+      <obj_property name="ElementShortName">led[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider419">
+      <obj_property name="label">AXI Write</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/S_AXI_AWADDR" type="array">
+      <obj_property name="ElementShortName">S_AXI_AWADDR[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWADDR[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/S_AXI_AWVALID" type="logic">
+      <obj_property name="ElementShortName">S_AXI_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/S_AXI_WDATA" type="array">
+      <obj_property name="ElementShortName">S_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/step" type="array">
+      <obj_property name="ElementShortName">step[31:0]</obj_property>
+      <obj_property name="ObjectShortName">step[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider424">
+      <obj_property name="label">AXI Read</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/S_AXI_ACLK" type="logic">
+      <obj_property name="ElementShortName">S_AXI_ACLK</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/S_AXI_ARADDR" type="array">
+      <obj_property name="ElementShortName">S_AXI_ARADDR[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARADDR[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/S_AXI_ARVALID" type="logic">
+      <obj_property name="ElementShortName">S_AXI_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/S_AXI_RDATA" type="array">
+      <obj_property name="ElementShortName">S_AXI_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider461">
+      <obj_property name="label">int related</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/icnt" type="array">
+      <obj_property name="ElementShortName">icnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">icnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/led_btn_ctrl_inst/int_en" type="logic">
+      <obj_property name="ElementShortName">int_en</obj_property>
+      <obj_property name="ObjectShortName">int_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/led_btn_ctrl_inst/int_req" type="logic">
+      <obj_property name="ElementShortName">int_req</obj_property>
+      <obj_property name="ObjectShortName">int_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/irq" type="logic">
+      <obj_property name="ElementShortName">irq</obj_property>
+      <obj_property name="ObjectShortName">irq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_btn_tb/led_btn_ip_v1_0_inst/led_btn_ip_v1_0_S00_AXI_inst/led_btn_ctrl_inst/int_clr" type="logic">
+      <obj_property name="ElementShortName">int_clr</obj_property>
+      <obj_property name="ObjectShortName">int_clr</obj_property>
+   </wvobject>
+</wave_config>
